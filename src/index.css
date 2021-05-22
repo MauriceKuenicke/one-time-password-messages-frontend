@@ -24,6 +24,12 @@ body {
   margin-top: 0.25rem;
 }
 
+.bottom-screen-buttons{
+  position: absolute;
+  top: 60%;
+  right: 48%;
+}
+
 .create-form{
   display: flex;
   justify-content: center;

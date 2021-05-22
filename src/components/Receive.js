@@ -1,4 +1,5 @@
 import React from 'react'
+import ReturnLink from "./ReturnButton"
 
 class Receive extends React.Component {
     constructor(props) {
@@ -68,6 +69,7 @@ class Receive extends React.Component {
                         <p>Your message: <br></br> {this.state.message}</p>
                     }
                 </form>
+                <ReturnLink />
             </div>
         );
     }
